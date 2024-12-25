@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration</title>
+  </head>
+  <body>
+    <a href="index.html">HOME</a>
+    <h1>User Registration</h1>
+    <hr />
+    <form action="" method="post" enctype="">
+      <p><label for="">Username: *</label> <input name="username"type="text" required/></p>
+      <p><label for="">Email:</label> <input type="email" name="email"/></p>
+      <p><label for="">Phone Number:</label> <input type="number" name="phone_number"/></p>
+      <p><label for="">Password:</label> <input type="password" /></p>
+      <p><label for="">LinkedIn:</label> <input type="url" /></p>
+      <p><label for="">Date of Birth:</label> <input type="date" /></p>
+      <p><label for="">Submit resume only:</label> <input type="file" /></p>
+      <p>
+        <label for="">Submit other documents:</label>
+        <input type="file" multiple />
+      </p>
+      <p>
+        <label for="">Give your feedback here:</label> <br />
+        <textarea name="" id="" cols="20" rows="20"></textarea>
+      </p>
+
+      <!-- RADIO BUTTON -->
+      <p>
+        <label for="">Gender:</label>
+        <input name="gender" type="radio" /><label for="">Male</label>
+        <input name="gender" type="radio" /><label for="">Female</label>
+        <input name="gender" type="radio" /><label for=""
+          >Do not want to specify</label
+        >
+      </p>
+
+      <!-- CHECKBOX --><p>
+
+      </p>
+      <label for="language">Which Language do you want to learn? </label>
+      <br />
+     
+      <input type="checkbox" /> <label name ="language" for="">CSS</label> <br>
+      <input type="checkbox" /> <label name ="language" for="">HTML</label>  <br>
+      <input type="checkbox" /> <label name ="language" for="">JavaScript</label> <br>
+      <input type="checkbox" /> <label name ="language" for="">Python</label> <br>
+      </p>
+      <br />
+      <br />
+      <hr>
+
+      <!-- DROP DOWN SELECT -->
+       <!-- example ---1 -->
+       <label for="">Which fruit do you want to choose: </label>
+       <select name="" id="" multiple>
+        <option value=""> -- Select --</option>
+        <option value="">Banana</option>
+        <option value="">Mango</option>
+        <option value="">Apples</option>
+        <option value="">Grapes</option>
+       </select>
+
+       <!-- example--2 -->
+        <p>
+        <label for="">Select your fav fruit and veggie</label>
+        <select name="" id=""><option value="">---select the ones you like---</option>
+            <optgroup label="fruits">
+                
+                <option value="">Apple</option>
+                <option value="">Banana</option>
+                <option value="">Cherry</option>
+            </optgroup>
+            
+            <optgroup label="veggies">
+                <option value="">Potato</option>
+                <option value="">Tomato</option>
+                <option value="">Saaag</option>
+            </optgroup>
+        </select></p>
+
+        <!-- Datalist -->
+
+        <p>
+            <label for="">Select a fruit or a viggie: </label>
+            <input type="text" list="misc">
+            <datalist id ="misc">
+                <option value="banana">Banana</option>
+                <option value="mango">Mango</option>
+                <option value="apples">Apples</option>
+                <option value="grapes">Grapes</option>
+                <option value="potato">Potato</option>
+                <option value="tomato">Tomato</option>
+                <option value="saaag">Saaag</option>
+            </datalist>
+
+
+
+        </p>
+
+
+    <hr>
+    <input type="checkbox" name="" id="">
+    <label for="">I accept the Terms and Conditions.</label>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
+
+
+
